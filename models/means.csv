@@ -1,0 +1,46 @@
+,0
+age,39.53205
+income,2639771.725
+number_of_dependants,1.9428
+years_at_current_address,16.03225
+loan_amount,4003103.525
+loan_tenure_months,25.939675
+bank_balance_at_application,988962.519375
+number_of_open_accounts,2.501925
+number_of_closed_accounts,1.00125
+total_loan_months,76.132275
+enquiry_count,5.008425
+credit_utilization_ratio,43.39055
+loan_to_income,1.5557848830417087
+credit_utilization_per_income,40.184171505637536
+income_log,14.307905661846947
+loan_amount_log,14.56054408606729
+days_to_first_installment,15.5763
+disbursal_month,6.514325
+disbursal_year,2021.564075
+gender_M,0.6007
+marital_status_Single,0.4509
+employment_status_Self-Employed,0.6421
+residence_type_Owned,0.564775
+residence_type_Rented,0.198875
+city_Bangalore,0.101075
+city_Chennai,0.0992
+city_Delhi,0.0999
+city_Hyderabad,0.099475
+city_Jaipur,0.101125
+city_Kolkata,0.10005
+city_Lucknow,0.097925
+city_Mumbai,0.1021
+city_Pune,0.0984
+state_Gujarat,0.10075
+state_Karnataka,0.101075
+state_Maharashtra,0.2005
+state_Rajasthan,0.101125
+state_Tamil Nadu,0.0992
+state_Telangana,0.099475
+state_Uttar Pradesh,0.097925
+state_West Bengal,0.10005
+loan_purpose_Education,0.1496
+loan_purpose_Home,0.301225
+loan_purpose_Personal,0.35
+loan_type_Unsecured,0.35

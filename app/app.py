@@ -3,13 +3,26 @@ import pandas as pd
 import numpy as np
 import joblib
 import plotly.graph_objects as go
-
+import os
 # ---------------- LOAD ARTIFACTS ---------------- #
-model = joblib.load('../models/model.pkl')
-scaler = joblib.load('../models/scaler.pkl')
-columns = joblib.load('../models/columns.pkl')
-numeric_cols = joblib.load('../models/numeric_cols.pkl')
-means = pd.read_csv('../models/means.csv', index_col=0).iloc[:, 0]
+# model = joblib.load('../models/model.pkl')
+# scaler = joblib.load('../models/scaler.pkl')
+# columns = joblib.load('../models/columns.pkl')
+# numeric_cols = joblib.load('../models/numeric_cols.pkl')
+# means = pd.read_csv('../models/means.csv', index_col=0).iloc[:, 0]
+
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+model = joblib.load(os.path.join(BASE_DIR, "models/model.pkl"))
+scaler = joblib.load(os.path.join(BASE_DIR, "models/scaler.pkl"))
+columns = joblib.load(os.path.join(BASE_DIR, "models/columns.pkl"))
+numeric_cols = joblib.load(os.path.join(BASE_DIR, "models/numeric_cols.pkl"))
+
+means = pd.read_csv(
+    os.path.join(BASE_DIR, "models/means.csv"),
+    index_col=0
+).iloc[:, 0]
 
 # ---------------- PAGE CONFIG ---------------- #
 st.set_page_config(page_title="Credit Risk Predictor", layout="wide")
